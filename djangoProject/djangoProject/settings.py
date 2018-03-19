@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'widget_tweaks',
     'crispy_forms',
     'imagekit',
+    'rest_framework',
 
 
 ]
@@ -139,3 +140,10 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR),"media_cdn")
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
+# REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    # 'DEFAULT_PERMISSION_CLASSES': [
+    #     'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    # ]
+# }

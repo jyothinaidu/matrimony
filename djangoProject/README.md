@@ -21,8 +21,4 @@ Install the following plugins:
  
 #Configurations
 
-Admin Details
 
-Details of Superuser: Username: "nishantisme"  Password: "nitta10101993"
-
-To check all the functionality, register a user and create a profile. ->VIEW ->UPDATE ->DELETE ->SEARCH.

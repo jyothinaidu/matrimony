@@ -30,6 +30,7 @@ urlpatterns = [
     url(r'^register/', matrimonyviews.register, name="register"),
     url(r'^login/',matrimonyviews.login_user,name= "login"),
     url(r'^logout/',matrimonyviews.logout_view,name= "logout"),
+    url(r'^api/v1/',include('tamilmatrimony.v1.tamilmatrimony_api_urls',namespace= "tamilmatrimony-api"))
 ]
 
 
