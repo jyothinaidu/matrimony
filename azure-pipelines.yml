@@ -46,6 +46,7 @@ steps:
     pip install unittest-xml-reporting
     pip install django==1.9
     pip install django-widget-tweaks
+    pip install django-crispy-forms
   displayName: 'Install prerequisites'
 
 - script: |
