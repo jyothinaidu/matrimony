@@ -47,6 +47,7 @@ steps:
     pip install django==1.9
     pip install django-widget-tweaks
     pip install django-crispy-forms
+    pip install django-imagekit
   displayName: 'Install prerequisites'
 
 - script: |
