@@ -45,6 +45,7 @@ steps:
     pip install -r requirements.txt
     pip install unittest-xml-reporting
     pip install django==1.9
+    pip install django-widget-tweaks
   displayName: 'Install prerequisites'
 
 - script: |
