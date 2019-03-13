@@ -29,7 +29,7 @@ steps:
       from glob import iglob
       from os import path
       # Python >= 3.5
-      manage_py = next(iglob(path.join('**', 'djangoProject/manage.py'), recursive=True), None)
+      manage_py = next(iglob(path.join('**', 'djangoProject/manage.py')), None)
       if not manage_py:
           raise SystemExit('Could not find a Django project')
       project_location = path.dirname(path.abspath(manage_py))
