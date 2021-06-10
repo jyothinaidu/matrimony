@@ -38,7 +38,7 @@ datashape==0.5.4
 decorator==4.3.0
 defusedxml==0.5.0
 distributed==1.21.8
-Django==2.1.7
+Django==2.2.24
 django-appconf==1.0.3
 django-bootstrap-form==3.4
 django-classified==0.8.10
